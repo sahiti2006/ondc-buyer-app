@@ -1,0 +1,27 @@
+{
+  "context": {
+    "domain": "nic2004:52110",
+    "action": "search",
+    "bap_id": "buyer-app.com",
+    "bpp_id": "seller-app.com",
+    "transaction_id": "txn-001",
+    "message_id": "msg-001",
+    "timestamp": "2025-06-01T10:00:00Z"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "atta"
+        }
+      },
+      "fulfillment": {
+        "end": {
+          "location": {
+            "gps": "12.9716,77.5946"
+          }
+        }
+      }
+    }
+  }
+}
